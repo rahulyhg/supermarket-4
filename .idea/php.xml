@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration max_messages_per_file="100" tool_path="/Volumes/workspace/trunk.quidco.dev/vendor/bin/phpmd" />
+    </phpmd_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration max_messages_per_file="100" standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="/Volumes/workspace/trunk.quidco.dev/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/psr/container" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/psr/http-message" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/psr/cache" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/psr/log" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/psr/simple-cache" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/behat/symfony2-extension" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/behat/transliterator" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/behat/behat" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/behat/gherkin" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/jdorn/sql-formatter" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/predis/predis" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/ramsey/uuid" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/monolog/monolog" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/myclabs/deep-copy" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phar-io/manifest" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phar-io/version" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phpspec/prophecy" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phpunit/php-file-iterator" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phpunit/php-timer" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phpunit/php-text-template" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phpunit/php-token-stream" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phpunit/php-code-coverage" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phpunit/phpunit" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/dependency-injection" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/validator" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/serializer" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/browser-kit" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/orm-pack" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/dom-crawler" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/routing" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/event-dispatcher" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/polyfill-ctype" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/property-access" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/flex" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/monolog-bundle" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/property-info" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/yaml" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/console" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/cache" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/framework-bundle" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/debug" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/serializer-pack" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/doctrine-bridge" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/options-resolver" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/http-kernel" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/filesystem" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/phpunit-bridge" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/finder" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/dotenv" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/translation" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/inflector" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/polyfill-mbstring" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/class-loader" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/monolog-bridge" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/config" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/symfony/http-foundation" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/theseer/tokenizer" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/cache" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/dbal" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/annotations" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/orm" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/lexer" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/data-fixtures" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/doctrine-bundle" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/common" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/collections" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/migrations" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/instantiator" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/doctrine/inflector" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/ocramius/package-versions" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/ocramius/proxy-manager" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/paragonie/random_compat" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/global-state" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/comparator" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/environment" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/exporter" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/recursion-context" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/object-enumerator" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/object-reflector" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/resource-operations" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/diff" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sebastian/version" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/webmozart/assert" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/fzaninotto/faker" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/guzzlehttp/guzzle" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/guzzlehttp/psr7" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/guzzlehttp/promises" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/sensiolabs/security-checker" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phpdocumentor/reflection-docblock" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phpdocumentor/type-resolver" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/phpdocumentor/reflection-common" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/zendframework/zend-code" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/zendframework/zend-eventmanager" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/container-interop/container-interop" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/maple-syrup-group/qp-lib-healthcheck-symfony" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/maple-syrup-group/qp-lib-multitenancy" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/maple-syrup-group/qp-lib-multitenancy-symfony" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/maple-syrup-group/qp-lib-multitenancy-enums" />
+      <path value="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" configuration_file_path="$PROJECT_DIR$/phpunit.xml.dist" custom_loader_path="/Volumes/workspace/qp-ms-user-consent/php-app/vendor/autoload.php" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+</project>
