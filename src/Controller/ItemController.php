@@ -12,7 +12,7 @@ use App\Entity\Item;
 class ItemController extends AbstractController
 {
     /**
-     * @Route("/item", name="item")
+     * @Route("/item/add", name="item")
      */
     public function create(Request $request): Response
     {
