@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Checkout{% endblock %}
+{% block title %}Create Item{% endblock %}
 
 {% block body %}
   <style>
@@ -18,8 +18,15 @@
   </style>
 
   <div class="wrapper">
-    <h1>Hello </h1>
+    <h1>Item</h1>
+
+    {{ form_start(itemForm) }}
+    {{ form_row(itemForm.code) }}
+    {{ form_row(itemForm.name) }}
+    {{ form_row(itemForm.price) }}
 
 
+    <button class="btn">Save</button>
+    {{ form_end(itemForm) }}
   </div>
 {% endblock %}

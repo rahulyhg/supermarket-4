@@ -16,4 +16,14 @@ class CheckoutController extends AbstractController
             'controller_name' => 'CheckoutController',
         ]);
     }
+
+    public function scan($item)
+    {
+        //some thing
+    }
+
+    public function total()
+    {
+        //some thing
+    }
 }
